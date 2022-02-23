@@ -1,25 +1,49 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Primeiro from './components/primeiro'
+import CompPadrao, { Component1, Component2 } from './components/Multi.js'
+import Estilos from './components/Estilos';
+import MinMax from './components/MinMax';
+import Titulo from './components/Titulo';
+import Botao from './components/Botao';
+import Contador from './components/Contador';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Primeiro></Primeiro>
+      <h2>Primeiro Componente pasta app.</h2>
+      <MinMax min="2" max="10" />
+      <MinMax min={4} max={15} />
+      <Titulo principal="Olá" secundario="tudo bem" />
+      <Botao />
+      <Contador inicial={100} passo={10} limite={1000} />
+      <Contador inicial={0} passo={5} limite={200} />
     </div>
   );
 }
 
 export default App;
+
+
+
+{/* <Primeiro />
+<Segundo />
+<Ronaldo/>
+<Component1/>
+<Component2/> */} 
+
+
+//FuncãoAnonima e exportando direto
+//export default function(){
+  //return <h3>Primeiro Componente</h3>
+//}
+
+//Usando Arrow Function
+//export defaut () => {
+  //return <h2>Primeiro Componente</h2>
+//}
+
+//Usando arrow Function com o return Implicito
+//export defaut () => <h2>Primeiro Componente</h2>
+
