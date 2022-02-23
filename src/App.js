@@ -25,25 +25,3 @@ function App() {
 
 export default App;
 
-
-
-{/* <Primeiro />
-<Segundo />
-<Ronaldo/>
-<Component1/>
-<Component2/> */} 
-
-
-//FuncãoAnonima e exportando direto
-//export default function(){
-  //return <h3>Primeiro Componente</h3>
-//}
-
-//Usando Arrow Function
-//export defaut () => {
-  //return <h2>Primeiro Componente</h2>
-//}
-
-//Usando arrow Function com o return Implicito
-//export defaut () => <h2>Primeiro Componente</h2>
-
