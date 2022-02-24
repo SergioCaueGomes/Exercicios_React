@@ -1,0 +1,24 @@
+.item {
+    width: 300px;
+    border: 1px solid rgb(2, 1, 1);
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    background-color: #cccc;
+    list-style: none;
+    text-align: justify;
+    box-shadow:teal 0vh;
+}
+
+.verde {
+    background-color: rgb(5, 139, 1);
+}
+
+.amarelo {
+    background-color: rgb(240, 255, 23);
+}
+
+.vermelho {
+    background-color: rgb(251, 24, 24)
+}

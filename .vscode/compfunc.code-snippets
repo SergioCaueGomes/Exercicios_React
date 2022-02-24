@@ -1,0 +1,24 @@
+{
+	
+	"Print to console": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "compfunc",
+		"body": [
+			"import React from 'react'",
+			"import React, {useState} from 'react'",
+			"function Name(props) {",
+			"",
+			"",
+			"",
+			"return (",
+			"	<>",
+			"		",
+			"	</>",
+			"	)",
+			"}",
+			"",
+			"export default Name"
+		],
+		"description": "compfunc"
+	}
+}
