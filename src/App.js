@@ -17,8 +17,8 @@ import Propriedades from './components/propriedades/Propriedades';
 // import ParImpar from './components/condicional/ParImpar';
 // import UsuarioLogado from './components/condicional/UsuarioLogado';
 // import ListaProdutos from './components/lista/ListaProdutos';
-// import CadastroNome from './components/classe/CadastroNome';
-import DigiteSeuNome from "./components/DigiteSeuNome";
+import CadastroNome from './components/classe/CadastroNome';
+// import DigiteSeuNome from "./components/DigiteSeuNome";
 
 
 
@@ -27,9 +27,9 @@ function App() {
 
     <div>
 
-      <DigiteSeuNome />
+      {/* <DigiteSeuNome /> */}
       
-      {/* <CadastroNome /> */}
+      <CadastroNome />
 
       {/* <ListaProdutos /> */}
 
