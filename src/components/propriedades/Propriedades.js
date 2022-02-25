@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Propriedades(props) {
 
     let texto = '';
-    if (props.name) {
+    if (props.nome) {
         texto = props.nome
     }
 

@@ -15,8 +15,7 @@ return (
         <h2>
             {texto} {numero}
         </h2>
-        <Filho funcao={setValores}/> 
-            
+        <Filho funcao={setValores}/>      
     </>
     )
 }

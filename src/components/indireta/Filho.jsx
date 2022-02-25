@@ -8,10 +8,10 @@ function Filho(props) {
     
 return (
     <>
-    <button onClick={function() {
-        const num =gerarNumero()
-        props.funcao('Valor Gerado.: ',num)
-    }}>Executar</button>    
+        <button onClick={function() {
+            const num =gerarNumero()
+            props.funcao('Valor Gerado.: ',num)
+        }}>Executar</button>    
     </>
     )
 }

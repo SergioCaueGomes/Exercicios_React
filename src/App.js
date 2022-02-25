@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css'
+import Propriedades from './components/propriedades/Propriedades';
 // import Primeiro from './components/primeiro'
 // import CompPadrao, { Component1, Component2 } from './components/Multi.js'
 // import Estilos from './components/Estilos';
@@ -7,22 +8,61 @@ import './App.css'
 // import Titulo from './components/Titulo';
 // import Botao from './components/Botao';
 // import Contador from './components/Contador';
-
 // import Produto from './components/produto/Produto';
 // import Carro from './components/carro/Carro';
 // import Pai from './components/direta/Pai';
-import Propriedades from './components/propriedades/Propriedades';
-import Pai from  './components/indireta/Pai';
+// import Pai from  './components/indireta/Pai';
+// import Familia from './components/children/Familia';
+// import Membro from './components/children/Membro';
+// import ParImpar from './components/condicional/ParImpar';
+// import UsuarioLogado from './components/condicional/UsuarioLogado';
+// import ListaProdutos from './components/lista/ListaProdutos';
+// import CadastroNome from './components/classe/CadastroNome';
+import DigiteSeuNome from "./components/DigiteSeuNome";
+
+
 
 function App() {
   return (
 
-    // Indireta
     <div>
-      <>
-        <Pai/>
-      </>
+
+      <DigiteSeuNome />
+      
+      {/* <CadastroNome /> */}
+
+      {/* <ListaProdutos /> */}
+
+      {/* <UsuarioLogado usuario={{nome: 'Sergio', email: 'caue.sergio@gmail.com'}} />
+      <UsuarioLogado usuario={{nome: 'Sergio'}} />
+      <UsuarioLogado usuario={{email: 'caue.sergio@gmail.com'}} />
+      <UsuarioLogado usuario={null} />
+      <UsuarioLogado usuario={{}} /> */}
     </div>
+
+
+      // <div>
+      //     <ParImpar num ={2} />
+      //     <ParImpar num ={3} />
+      // </div>
+
+    // <div>
+    //   <>
+    //     <Familia>
+    //       <Membro nome="Sergio" sobrenome="Gomes" />
+    //     </Familia>
+    //     <Familia>
+    //       <Membro nome="Sergio" sobrenome="Oliveira" />
+    //     </Familia>
+    //   </>
+    // </div>
+
+    // Indireta
+    // <div>
+    //   <>
+    //     <Pai/>
+    //   </>
+    // </div>
 
 
     // Direta
